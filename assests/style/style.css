@@ -1,0 +1,104 @@
+html{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.container h1{
+    font-family: 'Satisfy', cursive;
+    color:black;
+    text-decoration: none;
+}
+.logo{
+    font-family: 'Satisfy', cursive;
+    color:black;
+    text-decoration: none;
+}
+.container a{
+
+    text-decoration: none;
+}
+
+a{
+    font-style: none;
+    list-style: none;
+}
+.flex{
+    display: flex;
+    
+}
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+.navFlex{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.55);
+}
+.navFlex li{
+   margin: 1rem;
+}
+.navFlex li button{
+    color: white;
+    background-color: #F19B5C;
+    padding:5px;
+    border:0;
+    border-radius: 5px;
+ }
+ .latest{
+    
+    width: 80%; 
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding:5px;
+ }
+
+ .latest:hover, .card:hover{
+    border: 1px solid rgba(0, 0, 0, 0.406);
+    cursor: pointer;
+ }
+ .imgContainerBig{
+    width: 55%;
+ }
+ .latest img{
+    width: 100%
+ }
+ .cardIntro{
+    width: 40%;
+    margin-left: 1rem;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+ }
+
+
+
+ main{
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ .card{
+    padding: 5px;
+    width: 30%;
+    min-width: 200px;
+ }
+
+.imgContainer img{
+    width: 100%;
+}
+.cardIntroBig{
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+.blogHeader, .blogParagraph{
+    font-family: 'Nunito', sans-serif;
+}
