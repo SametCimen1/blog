@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samet Cimen Blog</title>
+    <link rel="stylesheet" href="../assests/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class = "container flex header">
+        <h1 class="logo"><a href = "/">Samet</a></h1>
+        <div>
+            <nav>
+                <ul class = "flex navFlex">
+                    <li><a>Blogs</a></li>
+                    <li><a>Last post</a></li>
+                    <li><a>Privacy</a></li>
+                    <li><button>Contact Me!</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class = "container">
+        <img src = "https://www.tutorialsteacher.com/Content/images/csharp/generics.png"/>
+    </div>
+
+    <main>
+        <h1 class = "blogHeader">Genesis C#</h1>
+
+        <p class = "blogParagraph">What are Generics in C#?
+            Generics are a dotnet language feature built to reduce the amount of copying and pasting that we as developers might need to do to provide generic functionality that can apply to any dotnet Type that wants it.
+            
+            The World before C# Generics
+            For example, let’s say that you needed to make a method that takes in a list of integers and returns an array of just the first element and the last element of the list (assuming lists will not be null and will have at least one element in them).
+            </p>
+
+
+            <img src=  "http://4.bp.blogspot.com/-5yFD3pD91HY/T8S_BdJ8b_I/AAAAAAAABeo/laS5PO4SFMg/s400/OperatorStaticTypeChecking.png"/> 
+            <p class = "blogParagraph">
+                Using C# generics, we can create a method that effectively acts as a template for the methods we have explicitly declared above.
+
+                That’s a complex sentence, so let’s get into an example.
+                
+                In our code earlier, the only difference between the two methods was that one of the methods worked with int values and the other worked with string values.
+                
+                Instead of declaring a new method per type that we wanted to support, we could instead use a placeholder or generic type in your code to represent a type that will be provided later.
+                
+                We do this by using angle brackets (<>‘s) after the method name and before the parentheses with parameter declarations as shown below:
+            </p>
+
+    </main>
+</body>
+</html>
